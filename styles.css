@@ -1,0 +1,165 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor-primaria: #ffffff;
+    --cor-secundaria: #c0c0c0;
+    --cor-tercearia: #167bf7;
+    --cor-background: #00030c;
+    --font-ptimary:'Inter';
+    
+}
+
+body {
+    background-color: var(--cor-background);
+    color: var(--cor-primaria);
+    font-family: var(--font-ptimary);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.principal {
+    background-image: url(img/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__title {
+    font-size: 28px;
+    font-weight: 700;
+
+}
+.container__button {
+    background-color: var(--cor-tercearia);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--cor-primaria);
+    text-decoration: none; 
+    display: block;
+    margin-bottom: 1em;
+    
+}
+
+.container__button__one {
+    background-color: transparent;
+    color: var(--cor-primaria);
+    text-decoration: none;
+    border: 2px solid var(--cor-primaria);
+    border-radius: 5px;
+    padding: 1em;
+    display: block;
+    margin-bottom: 1em;
+}
+
+.Container__aviso {
+    font-size: 12px;
+    color: var(--cor-secundaria);
+}
+
+.container__img {
+    margin: 1em 0 2em 0;
+
+}
+
+.container__box {
+    margin: 0 6em;
+}
+
+.two__img{
+    width: 80%;
+}
+
+.two {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.description__title {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--cor-primaria);
+    margin-bottom: 0.1em;
+}
+
+.description__text {
+    color: var(--cor-secundaria);
+}
+
+.botao__tres {
+    display: inline-block;
+    margin-top: 1em;
+
+}
+
+.container__two__descripition {
+    padding: 2em;
+}
+
+.device__list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.devices {
+    text-align: center;
+}
+
+.devices__title {
+    font-size: 48px;
+    color: var(--cor-primaria);
+}
+
+.list__item {
+    font-size: 32px;
+    color: var(--cor-primaria);
+
+}
+
+.rodapé__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+.rodapé__lista{ 
+   
+}
+
+.lista__link a{
+    text-decoration: none;
+    color: var(--branco-principal);
+    margin-left: 1em;
+
+}
+
+.rodapé__texto {
+    margin: 1em 0;
+    color: var(--cor-secundaria);
+    font-size: 14px;
+}
+
+.rodapé {
+    text-align: center;
+    margin: 1em 1em;
+}
+
+.lista__link a:hover {
+    color: var(--cor-tercearia);
+}
